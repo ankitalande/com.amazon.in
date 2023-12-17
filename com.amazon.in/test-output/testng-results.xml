@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[-----------Suite Session Stared-------------]]>
+    </line>
+    <line>
+      <![CDATA[------ Browser Session Started -----------]]>
+    </line>
+    <line>
+      <![CDATA[-----Application Started-------]]>
+    </line>
+    <line>
+      <![CDATA[------- Browser Session End -----------]]>
+    </line>
+    <line>
+      <![CDATA[------ Browser Session Started -----------]]>
+    </line>
+    <line>
+      <![CDATA[-----Application Started-------]]>
+    </line>
+    <line>
+      <![CDATA[------- Browser Session End -----------]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-17T18:57:48 IST" name="Suite" finished-at="2023-12-17T18:58:55 IST" duration-ms="67023">
+    <groups>
+    </groups>
+    <test started-at="2023-12-17T18:57:48 IST" name="Test" finished-at="2023-12-17T18:58:55 IST" duration-ms="67023">
+      <class name="com.amazon.in_Test.Add_to_Cart_Test">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:com.amazon.in_Test.Add_to_Cart_Test@403f0a22]" started-at="2023-12-17T18:58:13 IST" name="setupApplication" finished-at="2023-12-17T18:58:20 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[------ Browser Session Started -----------]]>
+            </line>
+            <line>
+              <![CDATA[-----Application Started-------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AddToCart()[pri:0, instance:com.amazon.in_Test.Add_to_Cart_Test@403f0a22]" started-at="2023-12-17T18:58:20 IST" name="AddToCart" finished-at="2023-12-17T18:58:49 IST" duration-ms="28722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.amazon.in_Test.Add_to_Cart_Test@403f0a22]" started-at="2023-12-17T18:58:49 IST" name="closeApplication" finished-at="2023-12-17T18:58:55 IST" duration-ms="5961" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[------- Browser Session End -----------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.amazon.in_Test.Add_to_Cart_Test -->
+      <class name="com.amazon.in_Test.SignIn_Test">
+        <test-method is-config="true" signature="suiterun()[pri:0, instance:com.amazon.in_Test.SignIn_Test@6a55299e]" started-at="2023-12-17T18:57:48 IST" name="suiterun" finished-at="2023-12-17T18:57:48 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Suite Session Stared-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suiterun -->
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:com.amazon.in_Test.SignIn_Test@6a55299e]" started-at="2023-12-17T18:57:48 IST" name="setupApplication" finished-at="2023-12-17T18:58:02 IST" duration-ms="13794" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[------ Browser Session Started -----------]]>
+            </line>
+            <line>
+              <![CDATA[-----Application Started-------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="LoginClass()[pri:0, instance:com.amazon.in_Test.SignIn_Test@6a55299e]" started-at="2023-12-17T18:58:02 IST" name="LoginClass" finished-at="2023-12-17T18:58:12 IST" duration-ms="10466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginClass -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.amazon.in_Test.SignIn_Test@6a55299e]" started-at="2023-12-17T18:58:12 IST" name="closeApplication" finished-at="2023-12-17T18:58:13 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[------- Browser Session End -----------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="suiteEnd()[pri:0, instance:com.amazon.in_Test.SignIn_Test@6a55299e]" started-at="2023-12-17T18:58:57 IST" name="suiteEnd" finished-at="2023-12-17T18:58:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteEnd -->
+      </class> <!-- com.amazon.in_Test.SignIn_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
